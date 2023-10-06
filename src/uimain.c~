@@ -1,0 +1,16 @@
+#include <stdio.h>
+#include "tokenizer.h"
+
+int main()
+{
+  List *history = init_history();
+  char string[100];
+
+  
+  printf("Type a sentance to tokenize\n");
+  printf("Type '!<number>' to print specific history\n");
+  printf("Type '!' to print full history\n");
+  printf("Type 'q' to clear history and quit\n");
+
+  
+  

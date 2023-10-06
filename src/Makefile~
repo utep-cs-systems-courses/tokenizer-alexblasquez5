@@ -1,0 +1,7 @@
+#comments begin with #
+
+#list of object files
+OBJS= uimain.o tokenizer.o history.o
+
+# -g for debug, -03 for optimization
+CFLAGS = -g -03
